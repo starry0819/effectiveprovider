@@ -8,7 +8,6 @@ import com.zhanghuanfa.model.po.User;
  */
 public class UserServiceImpl implements UserService {
 
-
     @Override
     public User getUserById(Integer id) {
         return null;
