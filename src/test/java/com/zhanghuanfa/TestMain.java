@@ -7,7 +7,19 @@ package com.zhanghuanfa;
 
 public class TestMain {
 
-    public void testSpring(){
+    private static String s = "A";
 
+    public static void main(String[] args) {
+        System.out.println(test());
+        System.out.println(s);
+    }
+    private static String test(){
+        try {
+            System.out.println("A");
+            return s = "A";
+        } finally {
+            System.out.println("B");
+            s = "B";
+        }
     }
 }
