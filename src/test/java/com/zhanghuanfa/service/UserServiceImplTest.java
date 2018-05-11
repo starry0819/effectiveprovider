@@ -14,4 +14,9 @@ public class UserServiceImplTest extends BaseTest {
         userService.getUserById(1);
     }
 
+    @Test
+    public void getUserByUserCondition() throws Exception {
+        userService.getUserByUserCondition(1);
+    }
+
 }

@@ -16,5 +16,6 @@
 
     <!-- dubbo:reference 声明需要订阅消费的服务 -->
     <dubbo:reference interface="com.zhanghuanfa.service.BookService" id="bookService" check="false"/>
+    <dubbo:reference interface="com.zhanghuanfa.service.NewUserService" id="userService2" check="false"/>
 
 </beans>
